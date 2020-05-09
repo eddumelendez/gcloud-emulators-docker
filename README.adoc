@@ -3,3 +3,9 @@
 This repository is a workaround for https://github.com/GoogleCloudPlatform/cloud-sdk-docker/issues/202[this issue]. The idea is to build custom images in order to run emulators such as `datasore`, `firestore` and `pubsub` based on the alpine image.
 
 NOTE: `spanner` is already provided as a docker image https://console.cloud.google.com/gcr/images/cloud-spanner-emulator/GLOBAL/emulator[here].
+
+You can find the images available in docker hub:
+
+* https://hub.docker.com/repository/docker/eddumelendez/gcloud-datastore-emulator[datastore]
+* https://hub.docker.com/repository/docker/eddumelendez/gcloud-firestore-emulator[firestore]
+* https://hub.docker.com/repository/docker/eddumelendez/gcloud-pubsub-emulator[pubsub]
